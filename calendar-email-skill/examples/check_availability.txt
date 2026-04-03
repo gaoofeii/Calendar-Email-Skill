@@ -1,0 +1,11 @@
+# Example: Check date availability
+
+litert-lm run gemma-4-E2B-it.litertlm \
+  --preset=calendar_email_skill.py \
+  --prompt="Check availability on 2024-12-25"
+
+# Alternative prompts:
+# "What times are available on 2024-06-15?"
+# "Is December 25th a good date for a meeting?"
+# "Check if Monday December 25th has morning slots available"
+# "What's the availability next week?"

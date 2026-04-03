@@ -1,0 +1,10 @@
+# Example: Schedule an event
+
+litert-lm run gemma-4-E2B-it.litertlm \
+  --preset=calendar_email_skill.py \
+  --prompt="Schedule team meeting on 2024-12-25 at 14:00 for 2 hours"
+
+# Alternative prompts:
+# "Create a project review on 2024-06-15 at 09:30 for 1.5 hours"
+# "Schedule weekly sync every Monday at 10:00 for 1 hour starting 2024-01-01"
+# "Plan Christmas party on 2024-12-25 at 18:00 for 3 hours"

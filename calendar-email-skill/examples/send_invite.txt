@@ -1,0 +1,10 @@
+# Example: Send email invitation
+
+litert-lm run gemma-4-E2B-it.litertlm \
+  --preset=calendar_email_skill.py \
+  --prompt="Send invitation for team meeting on 2024-12-25 to john@example.com"
+
+# Alternative prompts:
+# "Invite alice@company.com to board meeting on 2024-06-20"
+# "Send calendar invite for project review to team@company.com"
+# "Email invitation for Christmas party to all employees"
